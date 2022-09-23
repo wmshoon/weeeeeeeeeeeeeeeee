@@ -1,0 +1,145 @@
+html {
+  background-color: #191919;
+}
+.main-content-container {
+  margin: 0 auto;
+  max-width: 1164px;
+}
+
+.header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+.header .profile {
+  margin-left: auto;
+}
+.header a {
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 60px;
+  border-radius: 4px;
+  box-shadow: 6px black;
+}
+
+.header a:hover {
+  background-color: black;
+}
+.row1 {
+  margin-top: 144px;
+  /* display: grid;
+  grid-template-columns: 2fr 3fr; */
+  display: flex;
+  justify-content: space-around;
+}
+.row1 div {
+  height: 372px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 24px;
+}
+.row1 #row1-inside-1 {
+  width: 30%;
+}
+.row1 #row1-inside-2 {
+  width: 60%;
+}
+
+/* row2 */
+
+.row2 {
+  margin-top: 72px;
+  /* display: grid;
+  grid-template-columns: 2fr 3fr; */
+  display: flex;
+  justify-content: space-around;
+}
+.row2 div {
+  height: 372px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 24px;
+}
+.row2 #row2-inside-1 {
+  width: 45%;
+}
+.row2 #row2-inside-2 {
+  width: 45%;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .row1 {
+    margin-top: 12px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    border-radius: 24px;
+  }
+  .row1 div {
+    height: 144px;
+    margin-top: 12px;
+  }
+  .row1 #row1-inside-1 {
+    margin: auto;
+    margin-bottom: 12px;
+    width: 90%;
+  }
+  .row1 #row1-inside-2 {
+    width: 90%;
+    margin: auto;
+  }
+  .row2 {
+    margin-top: 12px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    border-radius: 24px;
+  }
+  .row2 div {
+    height: 144px;
+    margin-top: 12px;
+  }
+  .row2 #row2-inside-1 {
+    margin: auto;
+    margin-bottom: 12px;
+    width: 90%;
+  }
+  .row2 #row2-inside-2 {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/* footer */
+
+.footer {
+  height: 144px;
+  display: flex;
+  justify-content: end;
+}
+.footer .profile {
+  margin-left: auto;
+}
+.footer div {
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 144px;
+  height: 60px;
+}
+.footer #year {
+  margin-right: auto;
+}
