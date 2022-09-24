@@ -98,12 +98,66 @@
     /* Super Modern Browsers */ url("./fonts/montserrat-v25-latin-900.woff") format("woff"), /* Modern Browsers */ url("./fonts/montserrat-v25-latin-900.ttf") format("truetype"),
     /* Safari, Android, iOS */ url("./fonts/montserrat-v25-latin-900.svg#Montserrat") format("svg"); /* Legacy iOS */
 }
-
 html {
+  background-color: #191919;
   font-family: Montserrat;
   color: #fffafa;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.main-content-container {
+  margin: 0 auto;
+  max-width: 1164px;
 }
 
 a {
   text-decoration: none;
+}
+
+/* header */
+
+.header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+.header .profile {
+  margin-left: auto;
+}
+.header a {
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 60px;
+  border-radius: 4px;
+  box-shadow: 6px black;
+}
+
+.header a:hover {
+  background-color: black;
+}
+
+/* footer */
+
+.footer {
+  height: 144px;
+  display: flex;
+  justify-content: end;
+}
+.footer .profile {
+  margin-left: auto;
+}
+.footer div {
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 144px;
+  height: 60px;
+}
+.footer #year {
+  margin-right: auto;
 }
